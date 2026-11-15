@@ -1,14 +1,27 @@
-<h1>1. What is this:</h1>
-<h6>This is a desktop app that generates a new random password.</h6>
-<h1>2. Why I Made It:</h1>
-<h6>To create an app using C++.</h6>
-<h1>3. How to use it:</h1>
-<h5>1. Install CMake if it is not installed.</h5>
-<h3>2. Open CMD on Windows or Terminal on Linux, then copy this:</h3>
-<h4>cd your_file_path</h4>
-<h4>mkdir build</h4>
-<h4>cd build</h4>
-<h4>cmake ..</h4>
-<h4>make</h4> 
-<h1>4. Version:</h1>
-<h4>1.0.0</h4>
+# Random Password Generator
+
+## 1. About the Project
+A desktop application built with C++ that generates random passwords.
+
+## 2. Motivation
+This project was created to practice and demonstrate desktop application development using C++.
+
+## 3. How to Use It
+
+### Prerequisites
+* **CMake** installed on your system.
+* A C++ compiler (GCC, Clang, or MSVC).
+
+### Build & Run
+Open your terminal (Command Prompt on Windows or Terminal on Linux) and run the following commands:
+
+```bash
+cd your_file_path
+mkdir build
+cd build
+cmake ..
+make
+```
+
+## 4. Version
+**1.0.0**
