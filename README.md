@@ -1,27 +1,63 @@
 # Random Password Generator
 
 ## 1. About the Project
-A desktop application built with C++ that generates random passwords.
+A lightweight desktop application built with C++ that generates secure, random passwords quickly and reliably.
 
-## 2. Motivation
-This project was created to practice and demonstrate desktop application development using C++.
+## 2. Motivation & Features
+* **Motivation:** Created to practice and demonstrate clean, high-performance desktop application development using C++.
+* **Key Features:**
+  * **Random Password Generation:** Generates unpredictable combinations of characters (letters, numbers, and symbols).
+  * **Fast & Lightweight:** Built with C++ for instant execution and minimal resource usage.
 
-## 3. How to Use It
+## 3. Prerequisites & Installation
+Before building and running the application, ensure you have **CMake** and a C++ compiler installed on your system:
 
-### Prerequisites
-* **CMake** installed on your system.
-* A C++ compiler (GCC, Clang, or MSVC).
+### Linux
+* **Ubuntu / Debian / Mint:**
+  ```bash
+  sudo apt-get update && sudo apt-get install cmake build-essential
+  ```
+* **Fedora / RHEL / CentOS:**
+  ```bash
+  sudo dnf install cmake gcc gcc-c++
+  ```
+* **Arch Linux / Manjaro:**
+  ```bash
+  sudo pacman -S cmake base-devel
+  ```
+* **openSUSE:**
+  ```bash
+  sudo zypper install cmake gcc gcc-c++
+  ```
+* **Alpine Linux:**
+  ```bash
+  sudo apk add cmake build-base
+  ```
 
-### Build & Run
-Open your terminal (Command Prompt on Windows or Terminal on Linux) and run the following commands:
+### Windows
+Download and install **CMake** from the [Official CMake Download Page](https://cmake.org) along with a C++ compiler (MinGW or MSVC).
 
+## 4. Build & Run
+
+### 1. Clone & Build
+Open your Terminal (Linux) or Command Prompt (Windows) and run:
 ```bash
-cd your_file_path
-mkdir build
-cd build
+git clone https://github.com
+cd YOUR_REPO_NAME
+mkdir build && cd build
 cmake ..
-make
+cmake --build .
 ```
 
-## 4. Version
-**1.0.0**
+### 2. Run the Application
+* **On Linux:**
+  ```bash
+  ./password_generator
+  ```
+* **On Windows (CMD):**
+  ```cmd
+  password_generator.exe
+  ```
+
+## 5. Version
+`1.0.0`
