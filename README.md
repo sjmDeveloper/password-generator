@@ -52,11 +52,11 @@ cmake --build .
 ### 2. Run the Application
 * **On Linux:**
   ```bash
-  ./password_generator
+  ./Generator
   ```
 * **On Windows (CMD):**
   ```cmd
-  password_generator.exe
+  Generator.exe
   ```
 
 ## 5. Version
