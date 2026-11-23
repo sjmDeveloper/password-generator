@@ -42,8 +42,8 @@ Download and install **CMake** from the [Official CMake Download Page](https://c
 ### 1. Clone & Build
 Open your Terminal (Linux) or Command Prompt (Windows) and run:
 ```bash
-git clone https://github.com
-cd YOUR_REPO_NAME
+git clone https://github.com/sjmDeveloper/password-generator
+cd password-generator)
 mkdir build && cd build
 cmake ..
 cmake --build .
